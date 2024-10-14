@@ -1,63 +1,73 @@
 import React from 'react'
-import bookimg1 from '../../../assets/images/socialstudiesworkbook5.png'
+import bookimg1 from '../../../assets/images/socialstudiesworkbook5.png';
+import '../../pages/pages.css';
+const product =[
+  {
+    id: '1',
+    img: 'https://betterpricebookstore.com/wp-content/uploads/2022/10/20200819_174619-400x400.jpg',
+    title:'Jamaica Primary Social Studies Workbook 5',
+    button: 'Show Now'
+  },
+  {
+    id: '2',
+    img: 'https://betterpricebookstore.com/wp-content/uploads/2022/10/20200819_174637-400x400.jpg',
+    title:'JAMAICA PRIMARY SOCIAL STUDIES WORKBOOK 6 PLANET EARTH',
+    button: 'Show Now'
+  },
+  {
+    id: '3',
+    img:'https://betterpricebookstore.com/wp-content/uploads/2022/10/20200819_174619-400x400.jpg',
+    title:'Jamaica Primary Social Studies Workbook 5',
+    button:'Show Now'
+  },
+  {
+    id: '4',
+    img:'https://betterpricebookstore.com/wp-content/uploads/2022/10/20200819_174619-400x400.jpg',
+    title:'Jamaica Primary Social Studies Workbook 5',
+    button:'Show Now'
+  },
+  {
+    id: '5',
+    img: 'https://betterpricebookstore.com/wp-content/uploads/2022/10/20200819_174619-400x400.jpg',
+    title:'Jamaica Primary Social Studies Workbook 5',
+    button: 'Show Now'
+  },
+  {
+    id: '6',
+    img: 'https://betterpricebookstore.com/wp-content/uploads/2022/10/20200819_174619-400x400.jpg',
+    title:'Jamaica Primary Social Studies Workbook 5',
+    button:'Show Now'
+  },
+  {
+    id: '7',
+    img: 'https://betterpricebookstore.com/wp-content/uploads/2022/10/20200819_174619-400x400.jpg',
+    title:'Jamaica Primary Social Studies Workbook 5',
+    button: 'Show Now'
+  },
+  {
+    id: '8',
+    img: 'https://betterpricebookstore.com/wp-content/uploads/2022/10/20200819_174619-400x400.jpg',
+    title:'Jamaica Primary Social Studies Workbook 5',
+    button:' Show Now'
+  },
+ 
+]
 function NavelInfantBooks() {
   return (
-    <div style={{display:'flex', flexWrap:'wrap', justifyContent:'center'}}>
-      <div style={{width:'100%', justifyContent:'center'}}>
-      <div className='bookCategory' ><h2>Tertiary Books</h2></div>
-        <div style={{display:'flex', flexWrap:'wrap', width:'100%', }}>
-        <div className="itemCard">
-    
-    <img style={{width:'230px', height:'230px'}} src={bookimg1 } alt='productimg'/>
-    <p style={{width:'230px', margin:'10px'}}>Jamaica Primary Social Studies Workbook 5</p>
-    <button>Show Now</button>
-  </div>
-  <div className="itemCard">
-    
-      <img style={{width:'230px', height:'230px'}} src={bookimg1 } alt='productimg'/>
-      <p style={{width:'230px', margin:'10px'}}>Jamaica Primary Social Studies Workbook 5</p>
-      <button>Show Now</button>
-    </div>
-    <div className="itemCard">
-    
-      <img style={{width:'230px', height:'230px'}} src={bookimg1 } alt='productimg'/>
-      <p style={{width:'230px', margin:'10px'}}>Jamaica Primary Social Studies Workbook 5</p>
-      <button>Show Now</button>
-    </div>
-        </div>
-      </div>
+    <div className='cardLayout'>
+  
+    {product.map((products) => (
       
-      <div style={{width:'50%'}}>
-      <div style={{textAlign:'left'}} className='bookCategory' ><h2>Infant</h2></div>
-        <div>
-        <div style={{display:'flex', margin:'20px'}}>
-    
-    <img style={{width:'200px', height:'230px'}} src={bookimg1 } alt='productimg'/>
-    <div>
-    <p style={{width:'230px', margin:'10px'}}>Jamaica Primary Social Studies Workbook 5</p>
-    <button>Show Now</button>
-    </div>
+        <div className='cardMap' >
+        <img className='productImage' src={products.img} alt='product image' width='200px'/>
+          <h4 style={{padding:'10px'}}>{products.title}</h4>
+          <button style={{padding:'10px'}}>{products.button}</button>
+          </div>
+  
+      
+    ))}
    
-  </div  >
-  <div style={{display:'flex', margin:'20px'}}>
-    
-      <img style={{width:'200px', height:'230px'}} src={bookimg1 } alt='productimg'/>
-      <div>
-    <p style={{width:'230px', margin:'10px'}}>Jamaica Primary Social Studies Workbook 5</p>
-    <button>Show Now</button>
-    </div>
-    </div>
-    <div style={{display:'flex', margin:'20px'}}>
-    <img style={{width:'200px', height:'230px'}} src={bookimg1 } alt='productimg'/>
-      <div>
-    <p style={{width:'230px', margin:'10px'}}>Jamaica Primary Social Studies Workbook 5</p>
-    <button>Show Now</button>
-    </div>
-    </div>
-        </div>
-
-      </div>
-    </div>
+  </div>
   )
 }
 

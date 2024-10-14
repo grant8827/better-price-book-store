@@ -15,14 +15,15 @@ function HomePage() {
     <div>
     <div className="container">
     <div className="SliderHeader">
-    <SlideWidget/>
+      <div style={{width:'70%'}}><SlideWidget/></div>
+    
       <SidebarImage/>
     </div>
      
   
     </div>
     <div className="container">
-      
+      <h2 className='bookCategory'>Primary</h2>
       <PrimaryBooks/>
   
     </div>
@@ -32,14 +33,15 @@ function HomePage() {
   
     </div>
     <div className="container">
-      
+    <h2 className='bookCategory'>Tertiary</h2>
       < TertiaryBooks/>
   
     </div>
     <InnovativeAddBonner/>
 
     <div className="container">
-      
+    <h2 className='bookCategory'>Navels</h2>
+
       < NavelInfantBooks/>
   
     </div>

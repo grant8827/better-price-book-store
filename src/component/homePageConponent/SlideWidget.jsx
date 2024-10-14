@@ -1,32 +1,50 @@
-import React from 'react'
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
-import image1 from '../../assets/images/slideimage1.png';
-import image2 from '../../assets/images/slideimage2.png';
-import image3 from '../../assets/images/slideimage3.png';
+import React from 'react';
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
+
+const spanStyle = {
+  padding: '20px',
+  background: '#efefef',
+  color: '#000000'
+}
+
+const divStyle = {
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  backgroundSize: 'cover',
+  height: '500px'
+}
+const slideImages = [
+  {
+    url: 'https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
+    caption: 'Slide 1'
+  },
+  {
+    url: 'https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80',
+    caption: 'Slide 2'
+  },
+  {
+    url: 'https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
+    caption: 'Slide 3'
+  },
+];
 function SlideWidget() {
   return (
-    <div style={{height:'auto ',width:'100%', justifyContent:'center'}}>
-    <Carousel  >
-                <div style={{width:'80%'}}>
-                   <img style={{}} src={image1} alt='slide Image1'/>
-                    <p style={{fontSize:'20px'}}className="legend">Better Price variety Books and Stationery Supplies</p>
-                </div>
-                <div>
-                    <img style={{ }} src={image2} alt='slide image2'/>
-                   
-                    <p style={{fontSize:'20px'}}className="legend">Read More, Learn More, Achieve More </p>
-                    
-                   
-                </div>
-                <div>
-                    <img style={{ }} src={image3} alt='slide image3'/>
-                    <p className="legend"></p>
-                </div>
-            </Carousel>
+    <div className="slide-container">
+        <Slide>
+         {slideImages.map((slideImage, index)=> (
+            <div key={index}>
+              <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
+                <span style={spanStyle}>{slideImage.caption}</span>
+              </div>
             </div>
+          ))} 
+        </Slide>
+      </div>
   )
 }
 
 export default SlideWidget
  
+
