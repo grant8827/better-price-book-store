@@ -4,8 +4,10 @@ import 'react-slideshow-image/dist/styles.css'
 
 const spanStyle = {
   padding: '20px',
-  background: '#efefef',
-  color: '#000000'
+  textShadow:' 2px 2px 5px white ',
+  color: '#000000',
+  fontSize:'40px',
+  fontWeight: 'bold',
 }
 
 const divStyle = {
@@ -17,16 +19,16 @@ const divStyle = {
 }
 const slideImages = [
   {
-    url: 'https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
-    caption: 'Slide 1'
+    url: 'https://i.ibb.co/dcfcqzW/bannerimg1.jpg',
+    caption: 'Better Price Variety Books & Stationery Supplies'
   },
   {
-    url: 'https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80',
-    caption: 'Slide 2'
+    url: 'https://i.ibb.co/zQBtpqm/slideimage1.jpg',
+    caption: 'Read more, Learn more, Achieve more'
   },
   {
-    url: 'https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
-    caption: 'Slide 3'
+    url: 'https://i.ibb.co/fpqkMPQ/slideimage2.jpg',
+    caption: 'School Text Books, School & Office Supplies,'
   },
 ];
 function SlideWidget() {

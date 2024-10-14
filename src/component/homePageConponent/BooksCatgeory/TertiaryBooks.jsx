@@ -1,11 +1,10 @@
 import React from 'react'
-import bookimg1 from '../../../assets/images/socialstudiesworkbook5.png'
 import '../../pages/pages.css';
 const product =[
   {
     id: '1',
-    img: 'https://betterpricebookstore.com/wp-content/uploads/2022/10/20200819_174619-400x400.jpg',
-    title:'Jamaica Primary Social Studies Workbook 5',
+    img: 'https://i.ibb.co/7kcR3qW/PHOTO-2020-08-21-17-38-01.jpg',
+    title:'CSEC Physics',
     button: 'Show Now'
   },
   {

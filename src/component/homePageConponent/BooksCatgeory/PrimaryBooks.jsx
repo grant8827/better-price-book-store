@@ -20,38 +20,38 @@ const product =[
   },
   {
     id: '3',
-    img:'https://betterpricebookstore.com/wp-content/uploads/2022/10/20200819_174619-400x400.jpg',
-    title:'Jamaica Primary Social Studies Workbook 5',
+    img:'https://i.ibb.co/1Zn7Qt9/20200820-130144.jpg',
+    title:'The Wooing of Beppo Tate',
     button:'Show Now'
   },
   {
     id: '4',
-    img:'https://betterpricebookstore.com/wp-content/uploads/2022/10/20200819_174619-400x400.jpg',
-    title:'Jamaica Primary Social Studies Workbook 5',
+    img:'https://i.ibb.co/5KhfDyg/PHOTO-2020-08-21-17-37-58.jpg',
+    title:'English Masters for Jamaica',
     button:'Show Now'
   },
   {
     id: '5',
-    img: 'https://betterpricebookstore.com/wp-content/uploads/2022/10/20200819_174619-400x400.jpg',
-    title:'Jamaica Primary Social Studies Workbook 5',
+    img: 'https://i.ibb.co/FDnSfhd/20200820-130003.jpg',
+    title:'Collins Caribbean Students Dictionary',
     button: 'Show Now'
   },
   {
     id: '6',
-    img: 'https://betterpricebookstore.com/wp-content/uploads/2022/10/20200819_174619-400x400.jpg',
-    title:'Jamaica Primary Social Studies Workbook 5',
+    img: 'https://i.ibb.co/Jn1ysfB/20200821-162701.jpg',
+    title:'Grade One Integrated Language Arts Workbook',
     button:'Show Now'
   },
   {
     id: '7',
-    img: 'https://betterpricebookstore.com/wp-content/uploads/2022/10/20200819_174619-400x400.jpg',
-    title:'Jamaica Primary Social Studies Workbook 5',
+    img: 'https://i.ibb.co/YBbW6PT/20200821-162055.jpg',
+    title:'Integrated Reader',
     button: 'Show Now'
   },
   {
     id: '8',
-    img: 'https://betterpricebookstore.com/wp-content/uploads/2022/10/20200819_174619-400x400.jpg',
-    title:'Jamaica Primary Social Studies Workbook 5',
+    img: 'https://i.ibb.co/K706wZL/20200821-162817.jpg',
+    title:'Grade Two Phonics WorkBook',
     button:' Show Now'
   },
  

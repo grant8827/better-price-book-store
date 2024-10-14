@@ -9,7 +9,7 @@ import BookBonner from '../homePageConponent/BookBonner';
 import TertiaryBooks from '../homePageConponent/BooksCatgeory/TertiaryBooks';
 import InnovativeAddBonner from '../homePageConponent/InnovativeAddBonner';
 import NavelInfantBooks from '../homePageConponent/BooksCatgeory/NavelInfantBooks';
-import BookSale from '../homePageConponent/BooksCatgeory/BookSale';
+
 function HomePage() {
   return (
     <div>

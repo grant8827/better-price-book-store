@@ -36,7 +36,7 @@ body{
     height: 50px;
   align-content: center;
   align-items: center;
-   margin:0 180px 0 80px;
+   margin-left:100px ;
 
    align-items: center;
 }
@@ -45,7 +45,7 @@ body{
     display: inline-block;
     height: 0.5em;
     vertical-align: bottom;
-    width: 73%;
+    width: 80%;
     margin-right: -100%;
     margin-left: 10px;
     border-top: 1px solid black;
