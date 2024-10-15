@@ -1,6 +1,7 @@
 import './App.css'
-import Header from './component/header/Header';
-import Footer from './component/Footer';
+import Header from './component/Header/Header';
+import Footer from './component/footer/Footer';
+
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import HomePage from './component/pages/HomePage';
 import ShopPage from './component/pages/ShopPage';

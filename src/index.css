@@ -17,6 +17,7 @@ html, body
     padding: 0px;
     overflow-x: clip; 
     background-color: var(--body);
+    overscroll-behavior: none;
 }
 .container{
   width: 80%;

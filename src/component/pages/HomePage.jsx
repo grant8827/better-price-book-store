@@ -9,7 +9,9 @@ import BookBonner from '../homePageConponent/BookBonner';
 import TertiaryBooks from '../homePageConponent/BooksCatgeory/TertiaryBooks';
 import InnovativeAddBonner from '../homePageConponent/InnovativeAddBonner';
 import NavelInfantBooks from '../homePageConponent/BooksCatgeory/NavelInfantBooks';
-
+import StationaryBonner from '../homePageConponent/BooksCatgeory/StationaryBonner';
+import Topfooter from '../footer/Topfooter';
+import InfantBooks from '../homePageConponent/BooksCatgeory/InfantBooks';
 function HomePage() {
   return (
     <div>
@@ -45,8 +47,20 @@ function HomePage() {
       < NavelInfantBooks/>
   
     </div>
+    <div className="container">
+    
 
+      < StationaryBonner/>
   
+    </div>
+    <div className="container">
+    <h2 className='bookCategory'>Infant Books</h2>
+
+    < InfantBooks/>
+
+  </div>
+
+  <Topfooter/>
     </div>
   )
 }
