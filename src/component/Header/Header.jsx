@@ -2,10 +2,8 @@ import React from 'react'
 import '../Header/header.css';
 import Navbar from '../Header/Navbar';
 import Searchbar from '../Header/Searchbar';
-55
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faFacebook, faInstagram, faTiktok, faYoutube } from "@fortawesome/free-brands-svg-icons"
+import { faFacebook, faInstagram, faTiktok, faYoutube, } from "@fortawesome/free-brands-svg-icons"
 function Header() {
  
   return (
