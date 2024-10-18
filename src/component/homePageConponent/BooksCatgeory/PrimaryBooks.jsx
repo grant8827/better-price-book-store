@@ -59,7 +59,7 @@ const product =[
 function PrimaryBooks() {
     
   return (
-   <div className='cardLayout'>
+   <div className='cardLayout' key={product.id}>
   
   {product.map((products) => (
     
@@ -68,10 +68,8 @@ function PrimaryBooks() {
         <h4 style={{padding:'10px'}}>{products.title}</h4>
         <button style={{padding:'10px'}}>{products.button}</button>
         </div>
-
     
   ))}
- 
 </div>
   
 

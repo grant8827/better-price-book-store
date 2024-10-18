@@ -1,8 +1,276 @@
-/*home page styles*/
-.SliderHeader{
-    display:flex;
-   
-    margin: 20px;
-    justify-content: center;
+/*header styles*/
+.topHeader{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: var(--primary);
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
     align-items: center;
+   height: 250px;
+}
+.navLinks{
+    display: flex;
+    list-style: none;
+  
+}
+.navLinks li{
+  margin: 30px;
+  
+}
+.drawerNav{
+    display: none;
+}
+.searchbar{
+    width: 100%;
+    height: 50;
+    display: flex;
+    background-color: var(--secondary);
+    justify-content: space-around;
+    padding: 10px; 
+    align-items: center;
+}
+.searchLink{
+    display: flex;
+}
+.searchLink input{
+    width:500px; 
+    padding:15px;
+}
+.searchLink i{
+   position: relative;
+   right: 10px; 
+}
+.navLinks a{
+    color: black;
+   font-size: 20px;
+   text-decoration: none;
+ 
+ }
+ .navLinks a:hover{
+    color: var(--secondary);
+  }
+  .navLinks a:focus{
+    color: var(--primary);
+  }
+.category{
+    height: 50px;
+    font-size: large;
+    width: 150px;
+    margin-top: 3px;
+}
+.catList{
+   font-size: 25px;
+}
+.shoppingCart{
+background-color: aliceblue;
+padding: 8px;
+width: 150px;
+display: flex;
+justify-content: space-around;
+}
+
+
+
+
+
+/*home page styles css*/
+body{
+    width: 70%;
+}
+
+.homepage{
+    width: 100%;
+    height: 100%;
+   
+  
+   
+
+}
+.SliderHeader{
+    display: flex;
+    
+    width: 100%;
+    height: 600px;
+    margin: 20px 100px 0 100px;
+    justify-content: center;
+    
+   
+}
+.slideItem{
+    width: 70%;
+}
+
+.sideBarImage{
+    display:flex;
+    flex-Wrap:wrap;
+     width:60%; 
+     justify-Content:center;
+     
+}
+.sidebarImg{
+    background-size: cover;
+    background-repeat: no-repeat;
+     width:100%;
+      height:240px; 
+      margin-top:20px;
+      background-color: rgba(0, 0, 0, 0.37);
+background-blend-mode: overlay;
+}
+
+.itemCard{
+    width:230px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.365);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin: 20px;
+    background-color: aliceblue;
+   
+}
+.bookCategory{
+    width: 100%;
+    height: 50px;
+  align-content: center;
+  align-items: center;
+   margin-left:80px ;
+
+   align-items: center;
+}
+ h2:after {
+    content: "";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 50%;
+    margin-right: -100%;
+    margin-left: 10px;
+    border-top: 1px solid black;
+  }
+
+/*Primary books section styles*/
+  .cardLayout{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .cardMap{
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    padding: 0px;
+    background-color: aliceblue;
+    box-shadow:0px 5px 10px 0px rgba(0, 0, 0, 0.5) ;
+    border-radius: 10px;
+  }
+  .productImage{
+    border-radius: 10PX 10PX 0 0;
+  }
+
+.bookbonner{
+    width:100%;
+      display:flex;
+       flex-wrap:wrap; 
+       justify-content:center; 
+}
+
+.BbonnerImg{
+    background-Size: cover;
+    background-Repeat: no-repeat;
+    width:40%;
+     height:300px;
+    margin:20px;
+background-color: rgba(0, 0, 0, 0.37);
+background-blend-mode: overlay;
+
+
+}
+.stationaryImg{
+    background-repeat:no-repeat;
+     background-Size:cover;
+    height:auto; 
+    padding: 20px;
+    margin:10px;
+    background-color: rgba(0, 0, 0, 0.37);
+background-blend-mode: overlay;
+}
+
+
+
+
+
+
+  @media only screen and (max-width: 950px) {
+    .navLinks {
+      display:none;
+    }
+    .drawerNav{
+        display: block;
+    }
+    .SliderHeader{
+        flex-direction: column;
+        height: auto;
+      
+    }
+    .SliderHeader{
+   align-items: center;
+        margin:  0 ;
+     
+    }
+    .sideBarImage{
+       margin: 20PX;
+       width: 100%;
+         
+    }
+    .slideItem{
+        width: 100%;
+        margin-top: 20PX;
+    }
+    .searchbar{
+        flex-direction:column-reverse;
+    }
+    .searchLink{
+       margin-top: 20px;
+    }
+    .searchLink input{
+        width:300px; 
+        padding:15px;
+    }
+    .bookbonner{
+flex-direction: column;
+align-items: center;
+    }
+    .BbonnerImg{
+     
+        width:80%;
+         
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .navbar{
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+    .searchLink input{
+        width:80%; 
+        padding:15px;
+    }
+
+    .topHeader{
+       flex-direction:column-reverse;
+       align-items: center;
+    }
+ 
+    .topheadSocialIcons{
+        margin-top:20px;
+    }
 }

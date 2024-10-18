@@ -3,18 +3,25 @@ import sidebarimg from '../../assets/images/sidebarimage.png';
 import sidebarimg2 from '../../assets/images/sidebarimage2.png';
 function SidebarImage() {
   return (
-    <div style={{display:'flex',flexWrap:'wrap', width:'60%', justifyContent:'center'}}>
+    <div className='sideBarImage'>
 
 
 <div style={{width:'100%',marginLeft:'20px', justifyContent:'center', alignItems:'center'}}>
 
-<div style={{backgroundImage: `url("${sidebarimg}")`,  backgroundSize: "cover",
-    backgroundRepeat: "no-repeat", width:'100%', height:'240px',  marginBottom:'20px', border:'1px solid black '}}>
-<p>hello </p>
+<div className='sidebarImg' style={{backgroundImage: `url("${sidebarimg}")`}}>
+ <div style={{width:'70%',padding:'50px 0 0 10px', height:'auto',}}>
+      <h3  style={{color:'white'}}>We have Book for your every needs</h3>
+<p  style={{color:'white'}}>School that but in bulk get a special discount </p>
+<button>Shop Now</button>
+      </div>
             </div>
-            <div style={{backgroundImage: `url("${sidebarimg2}")`,  backgroundSize: "cover",
-    backgroundRepeat: "no-repeat", width:'100%', height:'240px', marginTop:'20px'}}>
-<p>hello </p>
+            <div className='sidebarImg' style={{backgroundImage: `url("${sidebarimg2}")`}}>
+      <div style={{width:'70%',padding:'50px 0 0 10px', height:'auto', margin:'10px'}}>
+      <h3 style={{color:'white'}}>We have Book for your every needs</h3>
+<p  style={{color:'white'}}>School that but in bulk get a special discount </p>
+<button>Shop Now</button>
+      </div>
+ 
             </div>
 
 </div>

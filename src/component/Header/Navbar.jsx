@@ -1,11 +1,12 @@
-import React from 'react'
-import logo from '../../assets/images/better-price-books-logo.png'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import '../../App.css';
+import { Link } from 'react-router-dom';
+import ResponsiveDrawer from './ResponsiveDrawer';
 function Navbar() {
   return (
     <div>
       <nav className='navbar'>
-<img style={{width:'200px', borderRadius:'20px'}} src={logo} alt='logo'/>
+
 
 <ul className='navLinks'>
     <li className='navitem'><Link to='/'>Home</Link></li>
@@ -15,6 +16,10 @@ function Navbar() {
     <li className='navitem'><Link to='/contact'> Contact</Link></li>
 
 </ul>
+<div className='drawerNav'>
+<ResponsiveDrawer/>
+</div>
+
       </nav>
     </div>
   )

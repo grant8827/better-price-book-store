@@ -7,7 +7,7 @@ function ShopPage() {
   return (
     <div className='container'>
     <div className='cardLayout'>
-  {ProductsData.splice(0, 20).map((products) => (
+  {ProductsData.slice( 0, 12).map((products) => (
       <div className='cardMap' >
       <img className='productImage' src={products.image} alt='product image' width='200px'/>
         <h4 style={{padding:'10px'}}>{products.title}</h4>

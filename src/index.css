@@ -38,3 +38,16 @@ button{
 h1, h2{
   font-size: 30px;
 }
+
+
+
+
+@media only screen and (max-width: 950px) {
+  .container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: clip;
+    justify-content: center;
+    align-items: center;
+  }
+}

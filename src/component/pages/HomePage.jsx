@@ -17,13 +17,11 @@ function HomePage() {
     <div>
     <div className="container">
     <div className="SliderHeader">
-      <div style={{width:'70%'}}><SlideWidget/></div>
-    
+      <div className='slideItem'><SlideWidget/></div>
       <SidebarImage/>
     </div>
      
-  
-    </div>
+      </div>
     <div className="container">
       <h2 className='bookCategory'>Primary</h2>
       <PrimaryBooks/>

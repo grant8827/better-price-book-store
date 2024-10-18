@@ -29,7 +29,7 @@ const product =[
   ]
 function InfantBooks() {
   return (
-    <div className='cardLayout'>
+    <div className='cardLayout' key={product.id}>
   
     {product.map((products) => (
         <div className='cardMap' >

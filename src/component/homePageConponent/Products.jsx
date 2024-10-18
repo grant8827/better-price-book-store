@@ -50,13 +50,13 @@ export  const  ProductsData = [{
     "button": "Add to cart"
 }, {
     "id": 11,
-    "image": "http://dummyimage.com/111x100.png/5fa2dd/ffffff",
-    "title": "title",
+    "image": "https://i.ibb.co/HnJSrBn/20200821-162216.jpg",
+    "title": "Computer Studies for Primary School",
    "button": "Add to cart" 
   }, {
     "id": 12,
-    "image": "http://dummyimage.com/105x100.png/5fa2dd/ffffff",
-    "title": "title",
+    "image": "https://i.ibb.co/Y09y5xk/PHOTO-2020-08-21-17-38-01.jpg",
+    "title": "CSEC Physics ",
    "button": "Add to cart" 
   }, {
     "id": 13,
